@@ -1,0 +1,119 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+nav a{
+    padding: .5rem
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style-type:none ;
+    border: 1px solid;
+    border-radius: 5px;
+    background: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+}
+li:hover{
+    background: #f74747;
+}
+/* Style de la formulaire */
+
+
+
+
+/* Style de base pour le formulaire */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des labels */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Style des champs de texte et des textarea */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style du textarea */
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Style des boutons */
+form input[type="submit"],
+form input[type="button"],
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover,
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style des messages d'erreur */
+form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+/* Style des champs obligatoires */
+form input:required,
+form textarea:required {
+    border-left: 4px solid #d9534f;
+}
+
+/* Style des champs focus */
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/*Design error form*/
+.form-error{
+    margin:0;
+    color: red;
+    font-size: .8rem;
+    margin-top: 5px;
+
+}
+.edit-btn{
+    color:rgb(67, 106, 119);
+    text-decoration: underline;
+    font-size: 20px;
+}
